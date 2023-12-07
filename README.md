@@ -11,3 +11,7 @@ Welcome to the Python Projects Collection! This repository contains a variety of
 **Usage:**
 
 main.py
+
+
+Feel free to customize the content based on your preferences and provide more detailed instructions or information about each project if needed.
+
