@@ -22,4 +22,4 @@ base = input("Please enter a currency : ").upper()
 data = convert_currrency(base)
 del data[base]
 for ticker,value in data.items():
-    print(f"{ticker} : {value}")
+    print(f"{ticker} : {value} ")
