@@ -6,6 +6,10 @@ class Camera :
         if not self.camera.isOpened():
             raise ValueError("Camera didn't opeed")
         
+        self.width = self.camera.get(cv.CAP_PROP_FRAME_WIDTH)
+        self.height = self.camera.get(cv.CAP_PROP_FRAME_HEIGHT)
+
+        
     def __del__(self):
         if self.camera.isOpened():
             self.camera.release()
